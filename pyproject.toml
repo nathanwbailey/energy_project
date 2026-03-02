@@ -1,0 +1,18 @@
+[project]
+name = "energy_project"
+version = "0.1.0"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "pandas>=2.3.3",
+    "requests>=2.32.5",
+    "pre-commit>=4.3.0",
+    "ruff>=0.15.4",
+    "numpy>=2.4.2",
+]
+
+[tool.ruff]
+line-length = 100
+exclude = ["__pycache__", ".git", "build", "dist", ".venv"]
+lint.select = ["E", "F", "W", "C90", "I"]
+
