@@ -1,2 +1,5 @@
 *.venv*
 carbon_data
+*.pth
+*.pt
+*.pyc

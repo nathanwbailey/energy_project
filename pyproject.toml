@@ -9,10 +9,12 @@ dependencies = [
     "pre-commit>=4.3.0",
     "ruff>=0.15.4",
     "numpy>=2.4.2",
+    "torch>=2.10.0",
+    "scikit-learn>=1.8.0",
 ]
 
 [tool.ruff]
 line-length = 100
-exclude = ["__pycache__", ".git", "build", "dist", ".venv"]
+exclude = ["__pycache__", ".git", "build", "dist", ".venv", "*.ipynb"]
 lint.select = ["E", "F", "W", "C90", "I"]
 
